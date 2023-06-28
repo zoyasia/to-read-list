@@ -1,0 +1,27 @@
+body{
+    background-color: #7FB29A;
+}
+
+.myTitle {
+    color: #DAF0E6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.myBtn{
+    color:#7FB29A;
+    background-color: #DAF0E6;
+}
+
+.myBtn:hover{
+    color:#7FB29A;
+    background-color:beige;
+}
+
+.small-btn{
+    color:#DAF0E6;
+    background-color:#7FB29A;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
