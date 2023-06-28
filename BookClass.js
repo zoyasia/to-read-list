@@ -1,4 +1,4 @@
-
+// Création de la classe Book avec ses paramètres
 class Book {
     constructor(title, author, img) {
         this.title = title;
@@ -6,6 +6,7 @@ class Book {
         this.img = img;
 }
 
+// Création de la méthode pour créer une nouvelle card intégrant les paramètres définis au préalable
     createBook() {
         const newElement = document.createElement("div");
         newElement.classList.add("col-md-3");

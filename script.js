@@ -18,14 +18,14 @@ myForm.addEventListener("submit", function(event) {
             console.log(newBook);
             let newBookElement = newBook.createBook();
 
-            $(newBookElement).hide(); // pour cacher mon nouvel élément avant d'insérer une animation
+            $(newBookElement).hide(); // cacher mon nouvel élément avant d'insérer une animation
 
             const deleteBtn = newBookElement.querySelector(".small-btn"); 
             deleteBtn.addEventListener("click", function() {
             newBookElement.remove(); // ajouter une fonction à mon bouton delete pour supprimer la card Book
             });
 
-            // Faire apparaître cette nouvelle instance dans mon container dédié 
+            // Faire apparaître la nouvelle instance Book dans mon container dédié 
             const bookContainer = document.querySelector(".reading-list");
             bookContainer.appendChild(newBookElement);
             $(newBookElement).fadeIn(); // Pour faire apparaître mon élément avec un effet de fade
